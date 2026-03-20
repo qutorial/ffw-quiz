@@ -1,9 +1,9 @@
 // FFW Quiz App — Service Worker Template
-// Cache name uses 3.19.2 placeholder — replaced by assemble.py at build time.
+// Cache name uses 3.19.3 placeholder — replaced by assemble.py at build time.
 // Strategy: cache-first with silent network update.
 // No prompts, no toasts — transparent to the user.
 
-var CACHE_NAME = 'ffw-quiz-3.19.2';
+var CACHE_NAME = 'ffw-quiz-3.19.3';
 var APP_URL = self.location.origin + '/';
 
 // Install: cache the app shell (index.html at root URL)
